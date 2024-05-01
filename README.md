@@ -1,10 +1,9 @@
 # Windows-Laptops-Analysis
 
-My objective was to analyze and visualize laptops based on their different functionalities, price, and rating. I utilized this [dataset](https://www.kaggle.com/datasets/kanchana1990/best-buy-2024-windows-laptops?resource=download), comprised of 489 entries of Windows laptops from Best Buy in 2024. 
+My objective was to analyze and visualize laptops based on their different functionalities, prices, and ratings. I utilized this [dataset](https://www.kaggle.com/datasets/kanchana1990/best-buy-2024-windows-laptops?resource=download), comprised of 489 entries of Windows laptops from Best Buy for 2024. 
 
 ### Tools and Libraries Used
 * Pandas
-* Matplotlib
 * Plotly
 * Seaborn
 
@@ -23,7 +22,14 @@ My objective was to analyze and visualize laptops based on their different funct
 
 ## Data Cleaning and Exploration
 
-AFter renaming the columns and dropping those that I didn't intend to use, I filtered out any rows that did not contain values for the "Price" column. 
+After renaming the columns and dropping those that I didn't intend to use, I filtered out any rows that did not contain values for the "Price" column because I wanted to use this column in a visualization later.
+
+First, I wanted to explore the counts of the different brands appeared in the dataset.
+
+![pie](Images/pie.PNG)
+
+Taking a look at the laptop count pie chart we can see the Lenovo, Dell, HP, Acer, and Microsoft are the top 5 brands with the most number of laptops within this cleaned dataset.
+
 
 Next, I created a bar chart visualizing the Price per Brand. 
 
@@ -49,9 +55,10 @@ The violin plot illustrates that there is a roughly even distribution of custome
 
 ![histo](Images/histo.PNG)
 
-After normalizing the satisfaction score using the "probabilty density" option of the histonorm value, Lenovo, Dell, Acer, and HP have the highest customer satisfication ratings. Next I will explore the brand counts.
+After normalizing the satisfaction score using the "probabilty density" option of the histonorm value, Lenovo, Dell, Acer, and HP have the highest customer satisfication ratings. 
 
-![pie](Images/pie.PNG)
+I wanted to explore if there was any correlation between the variables. 
 
-Taking a look at the laptop histogram and pie chart we can see the Lenovo, Dell, HP, Acer, and Microsoft are the top 5 brands with the most number of laptops within this cleaned dataset.
+![heatmap](Images/heatmap.PNG)
 
+Overall there isn't too much correlation between laptop specifications. The strongest correlation is a laptop's Rating vs Satisfaction Score which makes sense. If you are satisfied with a laptop's performance, you are more likely to leave a positive review. The same goes with the opposite, if a laptop seeminly performs poorly, it will likely recieve a negative review. 
