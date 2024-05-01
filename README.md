@@ -26,7 +26,7 @@ After renaming the columns and dropping those that I didn't intend to use, I fil
 
 First, I wanted to explore the counts of the different brands appeared in the dataset.
 
-![pie](Images/pie.PNG)
+![pie](Images/pie.png)
 
 Taking a look at the laptop count pie chart we can see the Lenovo, Dell, HP, Acer, and Microsoft are the top 5 brands with the most number of laptops within this cleaned dataset.
 
@@ -43,7 +43,7 @@ I wanted to visualize laptops based on their ratings next so I dropped rows that
 
 From there I created a scatter plot of Price vs Rating. 
 
-![scatter](Images/scatter.PNG)
+![scatter](Images/scatter.png)
 
 You can see a few laptops where rating is low and the price is high, vice versa, etc. However, this graph is difficult to interpret at a glace.
 
