@@ -61,4 +61,14 @@ I wanted to explore if there was any correlation between the variables.
 
 ![heatmap](Images/heatmap.PNG)
 
-Overall there isn't too much correlation between laptop specifications. The strongest correlation is a laptop's Rating vs Satisfaction Score which makes sense. If you are satisfied with a laptop's performance, you are more likely to leave a positive review. The same goes with the opposite, if a laptop seeminly performs poorly, it will likely recieve a negative review. 
+Overall there isn't too much correlation between laptop specifications. The strongest correlation is a laptop's Rating vs Satisfaction Score which makes sense. If you are satisfied with a laptop's performance, you are more likely to leave a positive review. The same goes for the opposite, if a laptop seemingly performs poorly, it will likely prompt a negative review.
+
+## Conclusion 
+
+Leveraging the Pandas, Plotly, and Seaborn, I was able to craft insightful visualizations of Windows laptops based on their specifications. Users can easily discern trends, compare different models, and make informed decisions on what laptop to purchase. 
+
+After exploring and cleaning the dataset, I found certain trends and patterns among various laptop brands. Lenovo, Dell, HP, Acer, and Microsoft were the top 5 brands in terms of the highest number of laptops, potentially impacting user ratings. A greater number of products in the market provides more opportunities for a company to study consumer trends, adapt strategies, and introduce better products. 
+
+Among these brands, Razer stood out for its high average price which can be attributed to its specialization in high-performance gaming laptops. Despite this, Lenovo, Dell, Acer, and HP had the highest customer satisfaction ratings overall. Notably, a strong correlation between a laptop's rating and satisfaction score was observed, indicating that user satisfaction influences reviews. Positive experiences with a laptop typically result in favorable reviews, while negative experiences tend to prompt negative feedback. This illustrates the importance of customer satisfaction in the laptop market.
+
+Whether you're a consumer seeking to purchase a new laptop or a researcher exploring market trends, visualizations serve as a great resource for understanding and navigating a dynamic market like the Windows laptop market.
