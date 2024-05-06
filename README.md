@@ -5,6 +5,7 @@ My objective was to analyze and visualize laptops based on their different funct
 ### Tools and Libraries Used
 * Pandas
 * Plotly
+* Matplotlib
 * Seaborn
 
 ### Column Descriptions
@@ -62,6 +63,13 @@ I wanted to explore if there was any correlation between the variables.
 ![heatmap](Images/heatmap.PNG)
 
 Overall there isn't too much correlation between laptop specifications. The strongest correlation is a laptop's Rating vs Satisfaction Score which makes sense. If you are satisfied with a laptop's performance, you are more likely to leave a positive review. The same goes for the opposite, if a laptop seemingly performs poorly, it will likely prompt a negative review.
+
+### Top 10 Laptops
+
+![topten](Images/topten.PNG)
+
+Grouping by laptop Brand then sorting by the highest Rating, we have a dataframe of the top 10 laptops. Lenovo has the most laptops in this dataframe. A user can reference this information when choosing a laptop.
+
 
 ## Conclusion 
 
