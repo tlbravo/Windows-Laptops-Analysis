@@ -68,12 +68,10 @@ Overall there isn't too much correlation between laptop specifications. The stro
 
 ![topten](Images/topten.PNG)
 
-Grouping by laptop Brand then sorting by the highest Rating, we have a dataframe of the top 10 laptops. Lenovo has the most laptops in this dataframe. A user can reference this information when choosing a laptop.
+Grouping by laptop Brand then sorting by the highest Satisfaction Score, we have a dataframe of the top 10 laptops. Lenovo and Dell have the most laptops in this dataframe. A user can reference this information when choosing a laptop.
 
 
 ## Conclusion 
-
-Leveraging the Pandas, Plotly, and Seaborn, I was able to craft insightful visualizations of Windows laptops based on their specifications. Users can easily discern trends, compare different models, and make informed decisions on what laptop to purchase. 
 
 After exploring and cleaning the dataset, I found certain trends and patterns among various laptop brands. Lenovo, Dell, HP, Acer, and Microsoft were the top 5 brands in terms of the highest number of laptops, potentially impacting user ratings. A greater number of products in the market provides more opportunities for a company to study consumer trends, adapt strategies, and introduce better products. 
 
